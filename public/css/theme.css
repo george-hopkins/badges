@@ -781,10 +781,6 @@ section #title .credits.right {
   }
 }
 @media print, screen and (max-width: 480px) {
-  section {
-    margin-top: 65px;
-  }
-
   #header {
     position: absolute;
     height: auto;
