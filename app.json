@@ -1,0 +1,12 @@
+{
+  "name": "hackaday-badges",
+  "description": "Hackaday.io Badges",
+  "keywords": ["hackaday", "badge"],
+  "image": "heroku/nodejs",
+  "env": {
+    "HACKADAY_IO_API_KEY": {
+      "description": "The Hackaday.io API Key",
+      "required": true
+    }
+  }
+}

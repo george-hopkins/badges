@@ -1,0 +1,17 @@
+{
+  "name": "hackaday-badges",
+  "description": "Hackaday.io Badges",
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "2.3.3",
+    "express": "4.13.3",
+    "express-dot-engine": "^1.0.7",
+    "lru-cache": "^4.0.1",
+    "pdfkit": "^0.7.2",
+    "request": "^2.70.0"
+  },
+  "engines": {
+    "node": "0.12.7"
+  }
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Hackaday.io Badges</title>
+    <link rel="stylesheet" href="css/theme.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <section>
+        <div id="title">
+          <h1>Hackaday.io Badges</h1>
+          <!--<p>Because memory is a fragile thing</p>-->
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/george-hopkins">George Hopkins</a></span>
+          <span class="credits right">Hosted on Heroku</span>
+        </div>
+        <h2>Usage</h2>
+        <h3>Skulls</h3>
+        <p><img src="hackaday/skulls/5602.svg"></p>
+        <pre><code>[![Hackaday.io](http://badge.s.co/hackaday/skulls/{{ PROJECT ID }}.svg)](https://hackaday.io/project/{{ PROJECT ID }})</code></pre>
+        <h3>Followers</h3>
+        <p><img src="hackaday/followers/5602.svg"></p>
+        <pre><code>[![Hackaday.io](http://badge.s.co/hackaday/followers/{{ PROJECT ID }}.svg)](https://hackaday.io/project/{{ PROJECT ID }})</code></pre>
+        <h2>Legal</h2>
+        <p>This project is not affilated with Hackaday.com in any way.</p>
+      </section>
+    </div>
+  </body>
+</html>
